@@ -4,6 +4,10 @@
 // I have created a constructor called Node , the constructor is a parametrised constructor that takes argument val , 
 // the val argument passed to Node constructor will store val in data, left and right are initialised as NULL pointers
 // in the main function first I did dynamic memory allocation using new keyword and stored whatever value i wanted to pass through the constructor. root is the pointer that stores the address of the new Node (1)
+// in trees we are basically creating an object , then we declare a pointer to that object , and by dereferencing the pointer we are able to access the object. 
+// instead of copying the full object every time we are using the pointer to it. 
+// -> operator means root ->left = (*root).left , so we are initialising another object and we are storing its address in pointer called left. 
+
 
 
 #include<iostream>
